@@ -46,4 +46,4 @@ RUN        sudo ldconfig
 ADD        .rtorrent.rc ~/.rtorrent.rc
 EXPOSE     5000 63256
 
-ENTRYPOINT sudo rtorrent
+#ENTRYPOINT sudo rtorrent
