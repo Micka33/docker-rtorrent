@@ -22,9 +22,6 @@ WORKDIR    libtorrent-0.13.4
 RUN        ./configure
 RUN        make
 RUN        make install
-RUN        
-RUN        
-RUN        
 
 # install xmlrpc
 WORKDIR    /rtorrent
@@ -33,8 +30,6 @@ WORKDIR    xmlrpc-c
 RUN        ./configure --disable-cplusplus
 RUN        make
 RUN        make install
-RUN        
-RUN        
 
 # install rtorrent
 WORKDIR    /rtorrent
