@@ -10,6 +10,7 @@ RUN        apt-get -y install libcppunit-dev
 RUN        apt-get -y install libcurl4-openssl-dev
 RUN        apt-get -y install libncurses-dev
 RUN        apt-get -y install subversion
+RUn        apt-get -y install make
 RUN        mkdir rtorrent
 
 # install libtorrent
