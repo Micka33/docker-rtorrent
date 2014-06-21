@@ -13,11 +13,11 @@ RUN        apt-get -y install subversion
 RUN        mkdir rtorrent
 
 # install libtorrent
-WORKDIR    rtorrent
+WORKDIR    /rtorrent
 RUN        wget http://libtorrent.rakshasa.no/downloads/libtorrent-0.13.4.tar.gz
 RUN        tar -xzf libtorrent-0.13.4.tar.gz
 RUN        rm libtorrent-0.13.4.tar.gz
-WORKDIR    rtorrent/libtorrent-0.13.4
+WORKDIR    libtorrent-0.13.4
 RUN        ./configure
 RUN        make
 RUN        make install
@@ -26,9 +26,9 @@ RUN
 RUN        
 
 # install xmlrpc
-WORKDIR    rtorrent
+WORKDIR    /rtorrent
 RUN        svn checkout http://svn.code.sf.net/p/xmlrpc-c/code/stable xmlrpc-c
-WORKDIR    rtorrent/xmlrpc-c
+WORKDIR    xmlrpc-c
 RUN        ./configure --disable-cplusplus
 RUN        make
 RUN        make install
@@ -36,11 +36,11 @@ RUN
 RUN        
 
 # install rtorrent
-WORKDIR    rtorrent
+WORKDIR    /rtorrent
 RUN        wget http://libtorrent.rakshasa.no/downloads/rtorrent-0.9.4.tar.gz
 RUN        tar -xzf rtorrent-0.9.4.tar.gz
 RUN        rm rtorrent-0.9.4.tar.gz
-WORKDIR    rtorrent/rtorrent-0.9.4
+WORKDIR    rtorrent-0.9.4
 RUN        ./configure --with-xmlrpc-c
 RUN        make
 RUN        make install
