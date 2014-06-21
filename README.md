@@ -35,6 +35,6 @@ A bundle including sickrage/rtorrent, ready-to-use, is coming soon on Vagrant.
 ```
 
 
-[3]:  https://github.com/echel0n/SickRage
+[3]:  https://github.com/Micka33/docker-sickrage
 [2]:  https://github.com/Micka33/docker-rtorrent/blob/master/.rtorrent.rc
 [1]:  https://github.com/rakshasa/rtorrent/wiki
