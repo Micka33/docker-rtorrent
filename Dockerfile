@@ -43,7 +43,7 @@ RUN        make install
 RUN        sudo ldconfig
 
 
-ADD        rtorrent.rc ~/rtorrent.rc
+ADD        .rtorrent.rc /root/.rtorrent.rc
 EXPOSE     5000 63256
 
 #ENTRYPOINT sudo rtorrent
