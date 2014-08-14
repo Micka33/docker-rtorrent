@@ -16,8 +16,8 @@ A bundle including sickrage/rtorrent, ready-to-use, is coming soon on Vagrant.
 ##How to build/run
 
 ```
-> git clone --depth=1 https://github.com/Micka33/docker-rtorrent.git .
-> docker build --tag micka33/rtorrent .
+git clone https://github.com/Micka33/docker-rtorrent.git .
+sudo docker build -t rtorrent ./docker_files
 ```
 
 
