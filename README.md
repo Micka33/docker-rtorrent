@@ -36,8 +36,8 @@ sudo docker top rtorrent
 # About it
 
 Rtorrent scgi is listening on 127.0.0.1:5000.  
-It means anly local services can connect the scgi interface.  
-You could install (ruTorrent)[4] to manage your rtorrent server through a web interface.  
+It means only local services can connect to the scgi interface.  
+You could install [ruTorrent][4] to manage your rtorrent server through a web interface.  
 *a ruTorrent docker is coming soon*
 
 
