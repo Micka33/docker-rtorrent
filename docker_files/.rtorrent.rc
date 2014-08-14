@@ -19,7 +19,7 @@ directory = /root/mounted/download
 # Default session directory. Make sure you don't run multiple instance
 # of seeder1rent using the same session directory. Perhaps using a
 # relative path?
-session = /root/mounted/.session
+session = /root/mounted/session
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
