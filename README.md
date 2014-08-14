@@ -13,10 +13,11 @@ This docker-rtorrent is preconfigured to work with [docker-sickrage][3].
 A bundle including sickrage/rtorrent, ready-to-use, is coming soon on Vagrant.  
 
 
-##How to build/run
+## How to install it ?
 
 ```
-git clone https://github.com/Micka33/docker-rtorrent.git .
+git clone https://github.com/Micka33/docker-rtorrent.git
+cd docker-rtorrent
 sudo docker build -t rtorrent ./docker_files
 ```
 
